@@ -14,4 +14,8 @@ print(sum)
 p=float(input("enter p: "))
 q=float(input("enter q: "))
 r=p*q
-print(r)
+print("multiple of p & q is:", r)
+
+# practice question, WAP to find avg of 2 numbers
+avg=(p+q)/2
+print("average of p & q is :",avg)
