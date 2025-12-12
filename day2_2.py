@@ -12,9 +12,9 @@ print("sum of number is :",sum, type(sum))
 # type casting
 
 x=2.3 # it`s a float value
-x=int(x) # here it chnages to boolean
+x=int(x) # here it chnages to integers
 print(type (x))
 
 y=5
 add=x+y
-print(add, type(add)) # type would be int bcz, we changed (2.3) into int type, so ans is 7 instead of 7.3
+print(add, type(add)) #it`ll be int bcz, we changed (2.3) into int type, so ans is 7 instead of 7.3(float)
