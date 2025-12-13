@@ -1,5 +1,4 @@
-# hey it`s my third day of learning python, hope I finish it earlier.
-# let`s learn loop program in pyhton, today
+# loop program in pyhton
 
 i=0  #iterator
 while (i<=5):
@@ -19,3 +18,11 @@ r=10
 while(r>=0):
     print(r)
     r-=1
+
+# print mulplication table of 6
+n=int(input("enter any number: ")) # we ccan write any number 
+b=1
+while(b<=10):
+    print(n*b)
+    b+=1
+
