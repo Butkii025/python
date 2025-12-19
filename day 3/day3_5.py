@@ -1,10 +1,10 @@
-# #WAP to print a factorial of n.
+#WAP to print a factorial of n.
 
-# n=int(input("enter no: "))
-# fact=1
-# for i in range(1,n+1):
-#     fact=fact*i
-#     print("fact till",i,"is",fact)
+n=int(input("enter no: "))
+fact=1
+for i in range(1,n+1):
+    fact=fact*i
+    print("fact till",i,"is",fact)
 
 
 # same question with fuction call
