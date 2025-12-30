@@ -3,10 +3,12 @@
 .values= marks(integers)"""
 
 info={ 
-    "name":"vijju",
-    "course": "art",
-    "age":19,
-    "subject":["sculpture", "portary", "modelling", "painting"]
+    "priya":80,
+    "anshu": 70,
+    "vijju":90,
+    "unknown":89
 
 }
-print(type.info)
+print(type(info))
+print(info.keys())
+print(info.values())
